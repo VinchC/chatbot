@@ -22,6 +22,8 @@ user_input_frame.pack(pady = 10, padx = 10, fill = "x")
 user_input = ctk.CTkEntry(user_input_frame, placeholder_text = "Ecrivez votre message...", width = 350)
 user_input.pack(side = "left", padx = 5)
 
+
+# Création du bouton d'envoi du message utilisateur
 send_button = ctk.CTkButton(user_input_frame, text = "Envoyer")
 send_button.pack(side = "left")
 
